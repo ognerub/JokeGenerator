@@ -28,13 +28,13 @@
                                         <rect key="frame" x="24" y="0.0" width="281" height="64"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joke ID" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uaf-WO-Wcg">
-                                                <rect key="frame" x="0.0" y="0.0" width="223.33333333333334" height="64"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="223.66666666666666" height="64"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="Number" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hoF-0M-80N">
-                                                <rect key="frame" x="223.33333333333331" y="0.0" width="57.666666666666686" height="64"/>
+                                                <rect key="frame" x="223.66666666666669" y="0.0" width="57.333333333333314" height="64"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -58,13 +58,13 @@
                                         <rect key="frame" x="24" y="0.0" width="281" height="64"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UFk-JQ-Yp3">
-                                                <rect key="frame" x="0.0" y="0.0" width="225" height="64"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="226.33333333333334" height="64"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="252" text="General" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crJ-Gy-h5O" userLabel="General">
-                                                <rect key="frame" x="225" y="0.0" width="56" height="64"/>
+                                                <rect key="frame" x="226.33333333333331" y="0.0" width="54.666666666666686" height="64"/>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -85,7 +85,7 @@
                                 <rect key="frame" x="32" y="299" width="329" height="244"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setup" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tQ9-03-yhQ" userLabel="Setup">
-                                        <rect key="frame" x="24" y="24" width="281" height="18.666666666666671"/>
+                                        <rect key="frame" x="24" y="24" width="281" height="19"/>
                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
