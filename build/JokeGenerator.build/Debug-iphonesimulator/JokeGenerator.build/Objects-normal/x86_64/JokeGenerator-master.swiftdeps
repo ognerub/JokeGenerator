@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)"
+options: "196282eab6e98c84f8d631bce7a4a83868eaa0d1c34c95787b57c240f95eca53"
+build_start_time: [1687794466, 643352031]
+build_end_time: [1687794466, 696992874]
+inputs:
+  "/Users/admin/Desktop/JokeGenerator/JokeGenerator/AppDelegate.swift": !private [1687774556, 725730895]
+  "/Users/admin/Desktop/JokeGenerator/JokeGenerator/SceneDelegate.swift": !private [1687774556, 729841709]
+  "/Users/admin/Desktop/JokeGenerator/JokeGenerator/ViewController.swift": !private [1687774556, 731614589]

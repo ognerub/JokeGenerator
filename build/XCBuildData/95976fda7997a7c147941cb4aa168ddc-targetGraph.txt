@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+JokeGenerator in JokeGenerator, no dependencies
+JokeGeneratorTests in JokeGenerator, depends on:
+JokeGenerator in JokeGenerator (explicit)
+JokeGeneratorUITests in JokeGenerator, depends on:
+JokeGenerator in JokeGenerator (explicit)
