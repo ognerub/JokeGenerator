@@ -10,6 +10,14 @@
 		842D33032A49F2850024E203 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849179882A499CDC0066EA77 /* Main.storyboard */; };
 		842D33052A49F2850024E203 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 849179B82A49A50B0066EA77 /* Roboto-Regular.ttf */; };
 		842D33062A49F2850024E203 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8491798B2A499CDE0066EA77 /* Assets.xcassets */; };
+		844BF3FD2B72625200C7BCBA /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF3FC2B72625200C7BCBA /* UIColor+Extensions.swift */; };
+		844BF3FF2B72626F00C7BCBA /* IAlertPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF3FE2B72626E00C7BCBA /* IAlertPresentable.swift */; };
+		844BF4012B72628D00C7BCBA /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF4002B72628C00C7BCBA /* AppError.swift */; };
+		844BF4042B7262C700C7BCBA /* JokesDataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF4032B7262C700C7BCBA /* JokesDataParser.swift */; };
+		844BF4062B72630B00C7BCBA /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF4052B72630B00C7BCBA /* NetworkDataFetcher.swift */; };
+		844BF4092B72633000C7BCBA /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF4082B72633000C7BCBA /* JokeModel.swift */; };
+		844BF40B2B72635300C7BCBA /* AlertPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF40A2B72635300C7BCBA /* AlertPresenter.swift */; };
+		844BF40D2B72637500C7BCBA /* AlertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF40C2B72637500C7BCBA /* AlertModel.swift */; };
 		849179832A499CDC0066EA77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849179822A499CDC0066EA77 /* AppDelegate.swift */; };
 		849179852A499CDC0066EA77 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849179842A499CDC0066EA77 /* SceneDelegate.swift */; };
 		849179872A499CDC0066EA77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849179862A499CDC0066EA77 /* ViewController.swift */; };
@@ -18,6 +26,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		844BF3FC2B72625200C7BCBA /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		844BF3FE2B72626E00C7BCBA /* IAlertPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAlertPresentable.swift; sourceTree = "<group>"; };
+		844BF4002B72628C00C7BCBA /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		844BF4032B7262C700C7BCBA /* JokesDataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesDataParser.swift; sourceTree = "<group>"; };
+		844BF4052B72630B00C7BCBA /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		844BF4082B72633000C7BCBA /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
+		844BF40A2B72635300C7BCBA /* AlertPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertPresenter.swift; sourceTree = "<group>"; };
+		844BF40C2B72637500C7BCBA /* AlertModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModel.swift; sourceTree = "<group>"; };
 		8491797F2A499CDC0066EA77 /* JokeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JokeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849179822A499CDC0066EA77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		849179842A499CDC0066EA77 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +65,59 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		844BF4022B72629800C7BCBA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				844BF4002B72628C00C7BCBA /* AppError.swift */,
+				844BF3FE2B72626E00C7BCBA /* IAlertPresentable.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		844BF4072B72631600C7BCBA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				844BF4032B7262C700C7BCBA /* JokesDataParser.swift */,
+				844BF4052B72630B00C7BCBA /* NetworkDataFetcher.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		844BF40E2B72639500C7BCBA /* AlertPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				844BF40A2B72635300C7BCBA /* AlertPresenter.swift */,
+			);
+			path = AlertPresenter;
+			sourceTree = "<group>";
+		};
+		844BF40F2B7263C100C7BCBA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				849179862A499CDC0066EA77 /* ViewController.swift */,
+				849179882A499CDC0066EA77 /* Main.storyboard */,
+				84FB041A2A4A05430084F445 /* LaunchScreen.storyboard */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		844BF4102B7263DC00C7BCBA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				844BF3FC2B72625200C7BCBA /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		844BF4112B7264A100C7BCBA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				844BF4082B72633000C7BCBA /* JokeModel.swift */,
+				844BF40C2B72637500C7BCBA /* AlertModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		849179762A499CDC0066EA77 = {
 			isa = PBXGroup;
 			children = (
@@ -68,14 +137,16 @@
 		849179812A499CDC0066EA77 /* JokeGenerator */ = {
 			isa = PBXGroup;
 			children = (
-				8491798B2A499CDE0066EA77 /* Assets.xcassets */,
-				84FB041F2A4A05BA0084F445 /* Info.plist */,
 				849179822A499CDC0066EA77 /* AppDelegate.swift */,
 				849179842A499CDC0066EA77 /* SceneDelegate.swift */,
-				849179862A499CDC0066EA77 /* ViewController.swift */,
-				849179882A499CDC0066EA77 /* Main.storyboard */,
-				84FB041A2A4A05430084F445 /* LaunchScreen.storyboard */,
+				844BF4102B7263DC00C7BCBA /* Extensions */,
+				844BF40F2B7263C100C7BCBA /* Scenes */,
+				844BF40E2B72639500C7BCBA /* AlertPresenter */,
+				844BF4112B7264A100C7BCBA /* ViewModels */,
+				844BF4072B72631600C7BCBA /* Network */,
+				844BF4022B72629800C7BCBA /* Helpers */,
 				849179B22A49A37D0066EA77 /* Resourses */,
+				84FB041F2A4A05BA0084F445 /* Info.plist */,
 			);
 			path = JokeGenerator;
 			sourceTree = "<group>";
@@ -83,6 +154,7 @@
 		849179B22A49A37D0066EA77 /* Resourses */ = {
 			isa = PBXGroup;
 			children = (
+				8491798B2A499CDE0066EA77 /* Assets.xcassets */,
 				843A69BC2A49FCDA00CCB79A /* Images */,
 				849179B32A49A3BD0066EA77 /* Fonts */,
 			);
@@ -178,9 +250,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844BF4062B72630B00C7BCBA /* NetworkDataFetcher.swift in Sources */,
+				844BF4092B72633000C7BCBA /* JokeModel.swift in Sources */,
+				844BF4042B7262C700C7BCBA /* JokesDataParser.swift in Sources */,
 				849179872A499CDC0066EA77 /* ViewController.swift in Sources */,
 				849179832A499CDC0066EA77 /* AppDelegate.swift in Sources */,
+				844BF40B2B72635300C7BCBA /* AlertPresenter.swift in Sources */,
+				844BF4012B72628D00C7BCBA /* AppError.swift in Sources */,
 				849179852A499CDC0066EA77 /* SceneDelegate.swift in Sources */,
+				844BF3FD2B72625200C7BCBA /* UIColor+Extensions.swift in Sources */,
+				844BF40D2B72637500C7BCBA /* AlertModel.swift in Sources */,
+				844BF3FF2B72626F00C7BCBA /* IAlertPresentable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
