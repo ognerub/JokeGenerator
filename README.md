@@ -1,7 +1,6 @@
 # Jokes
 <html>
 <body>
-<h2> Jokes </h2>
 Проект-заготовка для студентов Яндекс практикума <br>
 <h3> Ссылки </h3>
 <a href="https://www.figma.com/file/LZR5TpBT49pkx0MXcBvP9U/ui-jokes-app?node-id=0%3A1&t=gZZVNihayhrEH0KQ-1">Дизайн Figma </a><br>
@@ -14,10 +13,6 @@
 <h3> Средний уровень: </h3>
 Качаем проект и следуем инструкциям в вебинаре.<br>
 Проект уже с UI для отображения шуток, launchScreen и первичной настройкой.
-Получаем и парсим данные с сети. Адрес для получения данных https://official-joke-api.appspot.com/jokes/random 
-
-<h3> Важно </h3>
-Не забудьте сделать форк от этого репо<br>
-Добавьте в настройках проекта Bundle identifier и свой аккаунт в Team<br>
+Получаем и парсим данные с сети. Адрес для получения данных https://official-joke-api.appspot.com/jokes/random
 </body>
 </html>
