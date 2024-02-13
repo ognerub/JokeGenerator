@@ -22,8 +22,8 @@
 
 
 <div align="center">
-    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.49.png?raw=true" width="150px"</img>  
-    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.03.png?raw=true" width="150px"</img>
-    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.15.png?raw=true" width="150px"</img>
-    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.31.png?raw=true" width="150px"</img>
+    <img src="/Screenshots/00.png?raw=true" width="150px"</img>  
+    <img src="/Screenshots/01.png?raw=true" width="150px"</img>
+    <img src="/Screenshots/02.png?raw=true" width="150px"</img>
+    <img src="/Screenshots/03.png?raw=true" width="150px"</img>
 </div>
