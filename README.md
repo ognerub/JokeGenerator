@@ -1,18 +1,29 @@
-# Jokes
-<html>
-<body>
-Проект-заготовка для студентов Яндекс практикума <br>
-<h3> Ссылки </h3>
+# Генератор шуток (Jokes Generator)
+
+Описание: одностаничное приложение для вывода случайных шуток с сервера official-joke-api.appspot.com.
+
+Инструкция по установке: скачать и запустить проект в Xcode.
+
+Системные требования: устройства iPhone с iOS 13, предусмотрен только портретный режим.
+
+Планы по доработке: нет.
+
+Стек: #Swift, #InterfaceBuilder, #URLSession, #URLRequest
+
+Ссылки:
+
 <a href="https://www.figma.com/file/LZR5TpBT49pkx0MXcBvP9U/ui-jokes-app?node-id=0%3A1&t=gZZVNihayhrEH0KQ-1">Дизайн Figma </a><br>
+
+[API](https://official-joke-api.appspot.com/jokes/random)
+
 <a href="https://fonts.google.com/specimen/Roboto">Шрифт Roboto</a><br>
 
-<h3> Сложный уровень: </h3>
-Делаем проект, дизайн и все все все с 0  <br>
-<a href="https://github.com/AnaKud/Jokes/blob/4_sprint_start/Jokes/JokeMockModel.swift">Мок-данные шуток</a><br>
+Скриншоты:
 
-<h3> Средний уровень: </h3>
-Качаем проект и следуем инструкциям в вебинаре.<br>
-Проект уже с UI для отображения шуток, launchScreen и первичной настройкой.
-Получаем и парсим данные с сети. Адрес для получения данных https://official-joke-api.appspot.com/jokes/random
-</body>
-</html>
+
+<div align="center">
+    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.49.png?raw=true" width="150px"</img>  
+    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.03.png?raw=true" width="150px"</img>
+    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.15.png?raw=true" width="150px"</img>
+    <img src="/Screenshots/Simulator Screen Shot - iPhone X - 2024-02-12 at 22.53.31.png?raw=true" width="150px"</img>
+</div>
